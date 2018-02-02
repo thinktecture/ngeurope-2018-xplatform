@@ -5,10 +5,27 @@
   <title>NgeuropeXplatform</title>
   <base href="/">
 
+  <link rel="manifest" href="manifest.json">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FF584F">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" href="assets/icon-512x512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#ff584f">
+  <meta name="theme-color" content="#ff584f">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="msapplication-starturl" content="/">
 </head>
 <body>
-  <app-root></app-root>
+<noscript>
+  We are sorry. But you really need JavaScript enabled. Welcome to the modern world.
+</noscript>
+<app-root>
+  <div class="tt__spinner active">
+  </div>
+</app-root>
+<script src="cordova.js"></script>
 </body>
 </html>

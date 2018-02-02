@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  serviceWorkerEnabled: true,
-  mobile: false
+  serviceWorkerEnabled: false,
+  mobile: true
 };

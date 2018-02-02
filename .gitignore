@@ -1,6 +1,10 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# fonts
+/src/assets/fonts/3337D1*
+
 # compiled output
+/build
 /dist
 /dist-server
 /tmp

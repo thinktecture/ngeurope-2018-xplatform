@@ -1,0 +1,12 @@
+<div class="tt__card">
+    <header>
+        <h1>Please smile and hit the camera button.</h1>
+    </header>
+    <div class="content">
+      <img *ngIf="imageSrc$ | async as imageSrc" [src]="imageSrc">
+    </div>
+
+    <button class="tt__fab" (click)="takePhoto()">
+        camera_alt
+    </button>
+</div>
