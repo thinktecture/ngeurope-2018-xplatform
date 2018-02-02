@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {CameraService} from './camera.service';
-import {normalizeURL} from 'ionic-angular';
+import {normalizeURL} from 'ionic-angular/util/util';
 
 @Injectable()
 export class MobileCameraService extends CameraService {
