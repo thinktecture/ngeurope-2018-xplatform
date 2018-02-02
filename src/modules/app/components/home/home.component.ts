@@ -6,12 +6,10 @@ import {CameraService} from '../../../camera/services';
   styleUrls: ['home.component.scss'],
 })
 export class HomeComponent {
-  public imageSrc$: Promise<string>;
-
   constructor(private readonly _cameraService: CameraService) {
   }
 
   public takePhoto(): void {
-    this.imageSrc$ = this._cameraService.getPicture();
+
   }
 }
